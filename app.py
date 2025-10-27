@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, render_templates
+from flask import Flask, request, jsonify, render_template
 import google.generativeai as genai
 import os
 from dotenv import load_dotenv
@@ -26,4 +26,5 @@ if __name__ == "__main__":
     print("✅ MZStudio is Live 🚀")
     print("Go to http://127.0.0.1:5000")
     app.run(debug=True)
+
 
